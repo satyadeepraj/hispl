@@ -18,7 +18,7 @@ export function Blogdetail() {
   }
   if (!blogData) {
     return (
-      <div>
+      <div className=" px-96">
         <Loader />
       </div>
     );
@@ -29,7 +29,7 @@ export function Blogdetail() {
   }
 
   return (
-    <div className="flex flex-col min-h-[100dvh] mt-20 mr-8">
+    <div className="flex flex-col min-h-[100dvh] mt-24 mr-8">
       <header className="bg-gray-100 dark:bg-gray-800 py-12 md:py-16 lg:py-20">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto space-y-4">

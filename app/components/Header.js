@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import image from "../../public/loginpage/logo.png"
+import image from "../../public/loginpage/logo1.png"
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import SideBar from "./SideBar";
@@ -8,7 +8,7 @@ import { Speeddial } from "@/components/component/speeddial";
 
 const Header = (props) => {
   return (
-    <header className="fixed mobile:w-full top-0 mobile:flex mobile:flex-row mobile:justify-between  border left-0 right-0 flex flex-col shadow-xl sm:flex-row justify-between items-center bg-gray-900 text-white border-b border-gray-200 text-sm py-3 px-4 sm:px-6 lg:px-8 w-full z-50">
+    <header className="fixed mobile:w-full top-0 mobile:flex mobile:flex-row mobile:justify-between  border left-0 right-0 flex flex-col shadow-xl sm:flex-row justify-between items-center bg-gray-900 text-white border-b border-gray-200 text-sm py-3 px-4 sm:px-6 lg:px-8 w-full h-20 z-50">
       
       <Sheet className='sm-hidden'>
       <SheetTrigger asChild>
@@ -29,7 +29,7 @@ const Header = (props) => {
             width={100}
             src={image}
             alt="User"
-            
+            className="w-54 h-24"
           />
       </a>
 

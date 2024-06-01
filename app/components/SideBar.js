@@ -114,8 +114,8 @@ const SideBar = () => {
         </div>
       </div>
       <div className="flex-grow"></div>
-      <div className=" p-2 mb-10 ">
-        <p className="text-base font-semibold text-left text-black">
+      <div className=" ">
+        <p className="text-base font-semibold text-center text-black">
           Powered By:
         </p>
         <Image
@@ -123,7 +123,7 @@ const SideBar = () => {
           height={100}
           src={image}
           alt="Powered by Your Company"
-          className="w-40 h-30  mx-auto"
+          className="w-50 h-42 "
         />
       </div>
     </div>

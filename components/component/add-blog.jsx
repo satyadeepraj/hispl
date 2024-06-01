@@ -23,7 +23,8 @@ export function AddBlog() {
 
   const [sections, setSections] = useState([{ title: "", content: [""] }]);
 
-  const handleFormSubmit = async () => {
+  const handleFormSubmit = async (e) => {
+    e.preventDefault()
     const formData = new FormData();
 
     formData.append("maintitle", maintitleRef.current.value);
@@ -70,7 +71,7 @@ export function AddBlog() {
         },
       });
       console.log(response);
-      //  window.location.reload();
+       window.location.reload();
     } catch (error) {
       console.log(error);
     }

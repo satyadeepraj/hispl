@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify";
 const page = () => {
   return (
     <div>
-      <div className=" min-h-screen w-full ">
+      <div className=" min-h-screen w-full">
         <Header />
         <ToastContainer />
         <div className="flex  flex-col sm:flex-row   max-w-full min-h-screen">
