@@ -105,10 +105,10 @@ export function AddBlog() {
   };
 
   return (
-    <div className=" min-h-screen w-full bg-[#F1F1F1]">
+    <div className=" min-h-screen w-full">
       <Header />
       <ToastContainer />
-      <div className="flex bg-[#F1F1F1] flex-col sm:flex-row   max-w-full min-h-screen">
+      <div className="flex flex-col sm:flex-row   max-w-full min-h-screen">
         <div className="w-[25%] mobile:hidden">
           <SideBar />
         </div>
